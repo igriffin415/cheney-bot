@@ -11,4 +11,4 @@ cheney.on('message', msg => {
   }
 });
 
-cheney.login('process.env.BOT_TOKEN');
+cheney.login(process.env.BOT_TOKEN);
