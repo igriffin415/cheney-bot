@@ -1,13 +1,13 @@
 {
-  "name": "Cheney",
-  "version": "1.0.0",
-  "description": "Dick Cheney made money off the Iraq War.",
+  "name": "Test",
+  "description": "Test",
+  "version": "0.0.0",
   "main": "cheney-bot.js",
-  "author": "your new god, isabelle",
   "scripts": {
     "start": "node cheney-bot.js"
   },
-  "depencencies": {
-    "discord.js": "11.1.0"
+  "dependencies": {
+    "discord.js": "11.1.0",
+    "request": "2.81.0"
   }
 }
