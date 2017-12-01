@@ -7,6 +7,7 @@ client.on('ready', () => {
 
 client.on('message', msg => {
   message.channel.send('Dick Cheney made money off the Iraq War.');
+  message.channel.send('Dick Cheney made money off the Iraq War.');
 });
 
 cheney.login(process.env.BOT_TOKEN);
