@@ -6,5 +6,8 @@
   "author": "your new god, isabelle",
   "scripts": {
     "start": "node cheney-bot.js"
+  },
+  "depencencies": {
+    "discord.js": "11.1.0"
   }
 }
