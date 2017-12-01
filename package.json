@@ -1,0 +1,8 @@
+{
+  "name": "Forkbot",
+  "version": "1.0.0",
+  "description": "I post Forks!",
+  "main": "bot.js",
+  "author": "Your Lovely Mother, Jocelyn! but also your new god, isabelle",
+  "dependencies": {}
+}
