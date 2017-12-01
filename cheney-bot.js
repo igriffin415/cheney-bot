@@ -1,13 +1,15 @@
-const Discord = require("discord.js");
-const cheney = new Discord.Client();
+const Discord = require('discord.js');
+const client = new Discord.Client();
 
-cheney.on('ready', () => {
-  console.log(`Logged in as ${cheney.user.tag}!`);
+client.on('ready', () => {
+    console.log('I am ready!');
 });
 
-cheney.on('message', msg => {
-  message.channel.send('Dick Cheney made money off the Iraq War.');
-  message.channel.send('Dick Cheney made money off the Iraq War.');
+client.on('message', message => {
+    if (message.content === 'ping') {
+    	message.reply('pong');
+  	}
 });
 
-cheney.login(process.env.BOT_TOKEN);
+// THIS  MUST  BE  THIS  WAY
+client.login(process.env.BOT_TOKEN);
