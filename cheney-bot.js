@@ -1,11 +1,11 @@
 const Discord = require("discord.js");
-const client = new Discord.Client();
+const cheney = new Discord.Client();
 
-client.on('ready', () => {
-  console.log(`Logged in as ${client.user.tag}!`);
+cheney.on('ready', () => {
+  console.log(`Logged in as ${cheney.user.tag}!`);
 });
 
-client.on('message', msg => {
+cheney.on('message', msg => {
   message.channel.send('Dick Cheney made money off the Iraq War.');
   message.channel.send('Dick Cheney made money off the Iraq War.');
 });
