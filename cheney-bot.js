@@ -1,14 +1,12 @@
 const Discord = require("discord.js");
-const cheney = new Discord.Client();
+const client = new Discord.Client();
 
-cheney.on('ready', () => {
-  console.log(`Logged in as ${cheney.user.tag}!`);
+client.on('ready', () => {
+  console.log(`Logged in as ${client.user.tag}!`);
 });
 
-cheney.on('message', msg => {
-  if (msg.content === 'ping') {
-    msg.reply('Pong!');
-  }
+client.on('message', msg => {
+  message.channel.send('Dick Cheney made money off the Iraq War.');
 });
 
 cheney.login(process.env.BOT_TOKEN);
