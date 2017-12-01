@@ -1,8 +1,8 @@
 {
-  "name": "Forkbot",
+  "name": "Cheney",
   "version": "1.0.0",
-  "description": "I post Forks!",
-  "main": "bot.js",
-  "author": "Your Lovely Mother, Jocelyn! but also your new god, isabelle",
+  "description": "Dick Cheney made money off the Iraq War.",
+  "main": "cheney-bot.js",
+  "author": "your new god, isabelle",
   "dependencies": {}
 }
