@@ -1,6 +1,5 @@
 var Discord = require('discord.io');
 var logger = require('winston');
-var auth = require('./auth.json');
 
 // Configure logger settings
 logger.remove(logger.transports.Console);
@@ -11,9 +10,10 @@ logger.add(logger.transports.Console, {
 logger.level = 'debug';
 // Initialize Discord Bot
 var cheney = new Discord.Client({
-   token: auth.token,
+   token: BOT_TOKEN,
    autorun: true
 });
+
 cheney.on('ready', function (evt) {
     logger.info('Connected');
     logger.info('Logged in as: ');
