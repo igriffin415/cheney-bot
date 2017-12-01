@@ -6,9 +6,7 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === 'ping') {
-    	message.reply('pong');
-  	}
+    message.channel.send('Dick Cheney made money off the Iraq War.');
 });
 
 // THIS  MUST  BE  THIS  WAY
