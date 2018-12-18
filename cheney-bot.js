@@ -7,6 +7,8 @@ client.on('ready', () => {
 
 client.on('message', message => {
   if(message.author != client.user){
+    message.channel.send('p!start');
+    message.channel.send('p!pick torchic');
     for (i = 0; i < 4; i++) {
       message.channel.send('Dick Cheney made money off the Iraq War.');
     }
