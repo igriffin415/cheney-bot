@@ -1,13 +1,14 @@
 const Discord = require('discord.js');
-const cheney = new Discord.Client();
+const client = new Discord.Client();
 
-cheney.on('ready', () => {
+client.on('ready', () => {
     console.log('I am ready!');
-    cheney.user.setActivity('making money off the iraq war');
+    client.user.setActivity('making money off the iraq war');
 });
 
-cheney.on('message', message => {
-  if(message.author != cheney.user){
+client.on('message', message => {
+  client.user.setActivity('making money off the iraq war');
+  if(message.author != client.user){
     for (i = 0; i < 4; i++) {
       message.channel.send('Dick Cheney made money off the Iraq War.');
     }
@@ -15,4 +16,4 @@ cheney.on('message', message => {
 });
 
 // THIS  MUST  BE  THIS  WAY
-cheney.login(process.env.BOT_TOKEN);
+client.login(process.env.BOT_TOKEN);
