@@ -5,6 +5,10 @@ client.on('ready', () => {
     console.log('I am ready!');
 });
 
+bot.on('ready', () => {
+  bot.user.setGame('making money off the iraq war');
+});
+
 client.on('message', message => {
   if(message.author != client.user){
     for (i = 0; i < 4; i++) {
