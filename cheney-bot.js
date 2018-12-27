@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const cheney = new Discord.Client();
 
 cheney.on('ready', () => {
-    cheney.user.setGame('making money off the iraq war');
+    cheney.user.setActivity('making money off the iraq war');
 });
 
 cheney.on('message', message => {
