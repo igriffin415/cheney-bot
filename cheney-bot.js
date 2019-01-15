@@ -2,8 +2,8 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 
 client.on('ready', () => {
-    // console.log('I am ready!');
-    client.user.setActivity('making money off the iraq war');
+    console.log('I am ready!');
+    // client.user.setActivity('making money off the iraq war');
 });
 
 client.on('message', message => {
