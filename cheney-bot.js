@@ -4,11 +4,9 @@ const client = new Discord.Client();
 client.on('ready', () => {
     console.log('I am ready!');
     // client.user.setActivity('making money off the iraq war');
-    client.user.setPresence({
-        game: {
-            name: 'making $ off the iraq war'
-        }
-    });
+    client.user.setPresence({ game: { name: 'making $ off the iraq war' }, status: 'idle' })
+  .then(console.log)
+  .catch(console.error);
 });
 
 client.on('message', message => {
