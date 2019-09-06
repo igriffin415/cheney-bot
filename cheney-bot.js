@@ -3,13 +3,13 @@ const client = new Discord.Client();
 
 client.on('ready', () => {
     console.log('I am ready!');
-    // client.user.setActivity('making money off the iraq war');
-    // client.user.setPresence({
-    //     game: {
-    //         name: 'Type !help',
-    //         type: 0
-    //     }
-    // });
+    client.user.setActivity('making money off the iraq war');
+    client.user.setPresence({
+        game: {
+            name: 'making $ off the iraq war',
+            type: 0
+        }
+    });
 });
 
 client.on('message', message => {
@@ -18,10 +18,6 @@ client.on('message', message => {
       message.channel.send('Dick Cheney made money off the Iraq War.');
     }
   }
-
-  client.user.setActivity('YouTube', { type: 'WATCHING' })
-  .then(presence => console.log(`Activity set to ${presence.game ? presence.game.name : 'none'}`))
-  .catch(console.error);
 
 
 });
