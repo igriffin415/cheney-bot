@@ -19,6 +19,13 @@ client.on('message', message => {
     }
   }
 
+  client.user.setPresence({
+      game: {
+          name: 'making $ off the iraq war',
+          type: 0
+      }
+  });
+
 
 });
 
