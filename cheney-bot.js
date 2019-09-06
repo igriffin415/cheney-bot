@@ -15,6 +15,10 @@ client.on('message', message => {
       message.channel.send('Dick Cheney made money off the Iraq War.');
     }
   }
+
+  client.user.setPresence({ game: { name: 'making $ off the iraq war' }, status: 'idle' })
+.then(console.log)
+.catch(console.error);
 });
 
 // THIS  MUST  BE  THIS  WAY
