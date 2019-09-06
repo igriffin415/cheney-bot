@@ -13,7 +13,7 @@ client.on('ready', () => {
 
 client.on('message', message => {
   if(message.author != client.user){
-    for (i = 0; i < 4; i++) {
+    for (i = 0; i < 5; i++) {
       message.channel.send('Dick Cheney made money off the Iraq War.');
     }
   }
