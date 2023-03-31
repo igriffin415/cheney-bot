@@ -2,28 +2,21 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 
 client.on('ready', () => {
-    client.user.setPresence({
-        game: {
-            name: 'making $ off the iraq war',
-            type: 0
-        }
-    });
+  client.user.setPresence({
+    activities: [{
+      name: 'making $ off the iraq war'
+    }]
+  });
 });
 
 client.on('message', message => {
-  if(message.author != client.user){
-    for (i = 0; i < 5; i++) {
-      message.channel.send('Dick Cheney made money off the Iraq War.');
+  if (message.author != client.user) {
+    for (i = 0; i < 6; i++) {
+      message.channel.send({
+        content: 'Dick Cheney made money off the Iraq War.'
+      });
     }
   }
-
-  client.user.setPresence({
-      game: {
-          name: 'making $ off the iraq war',
-          type: 0
-      }
-  });
-
 
 });
 
