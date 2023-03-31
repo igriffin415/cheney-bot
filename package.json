@@ -1,6 +1,6 @@
 {
-  "name": "Test",
-  "description": "Test",
+  "name": "Cheney Bot",
+  "description": "Cheney Bot",
   "version": "0.0.0",
   "main": "cheney-bot.js",
   "scripts": {
