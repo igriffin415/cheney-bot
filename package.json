@@ -1,13 +1,11 @@
 {
-  "name": "Cheney Bot",
-  "description": "dick cheney made money off the iraq war",
-  "version": "0.0.0",
-  "main": "cheney-bot.js",
-  "scripts": {
-    "start": "node cheney-bot.js"
-  },
+  "name": "cheney-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "isaac",
+  "license": "ISC",
   "dependencies": {
-    "discord.js": "^14.8.0",
-    "request": "2.81.0"
+    "discord.js": "^14.13.0"
   }
 }
